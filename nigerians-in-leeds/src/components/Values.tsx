@@ -141,14 +141,20 @@ export const Values = () => {
                             Community <span className="highlight-yellow">Together</span>
                         </motion.h2>
                     </div>
-                    <motion.p
+                    <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-lg text-foreground/70 max-w-sm"
+                        className="text-lg text-foreground/70 max-w-md space-y-4"
                     >
-                        We're more than just a group; we're a supportive ecosystem designed to help you thrive in Leeds.
-                    </motion.p>
+                        <p>
+                            We support Nigerians by birth, ancestry, marriage, or adoption in Leeds.
+                            Our mission is to enable everyone to reach their full potential as valued citizens.
+                        </p>
+                        <p className="text-sm font-semibold text-brand-purple italic">
+                            Governed by an elected Board of Trustees.
+                        </p>
+                    </motion.div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-fr">

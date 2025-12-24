@@ -50,12 +50,20 @@ export const Navbar = () => {
                             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-brand-orange transition-all duration-300 group-hover:w-full"></span>
                         </Link>
                     ))}
-                    <Link
-                        href="#membership"
-                        className="bg-brand-purple text-white px-6 py-2 rounded-brand-button font-semibold hover:bg-brand-purple/90 transition-all shadow-brand-subtle"
-                    >
-                        Join Us
-                    </Link>
+                    <div className="flex items-center gap-3">
+                        <Link
+                            href="#"
+                            className="text-brand-purple font-bold hover:text-brand-orange transition-colors px-4"
+                        >
+                            Donate
+                        </Link>
+                        <Link
+                            href="#membership"
+                            className="bg-brand-purple text-white px-6 py-2 rounded-brand-button font-semibold hover:bg-brand-purple/90 transition-all shadow-brand-subtle"
+                        >
+                            Join Us
+                        </Link>
+                    </div>
                 </div>
 
                 {/* Mobile Toggle */}
