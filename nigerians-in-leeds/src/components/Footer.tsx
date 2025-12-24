@@ -19,10 +19,10 @@ export const Footer = () => {
                                     <path d="M20 8L24 16H28L24 24H16L12 16H16L20 8Z" fill="#4A1D6F" />
                                 </svg>
                             </div>
-                            <span className="text-xl font-bold font-serif">Nigeria Leeds</span>
+                            <span className="text-2xl font-black font-serif tracking-tighter">NCL</span>
                         </div>
                         <p className="text-white/70 mb-8 leading-relaxed">
-                            Nigerian Community Leeds (NCL) is a registered Charity supporting Nigerians across Yorkshire since 2007.
+                            Nigeria Community Leeds (NCL) is a registered Charity supporting Nigerians across Yorkshire since 2007.
                         </p>
                         <div className="space-y-2 text-xs text-white/40 uppercase tracking-widest font-bold">
                             <div>Charity No: 1129681</div>
@@ -83,7 +83,7 @@ export const Footer = () => {
 
                 {/* Bottom Bar */}
                 <div className="pt-10 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-white/50">
-                    <p>&copy; {new Date().getFullYear()} Nigerian Community Leeds. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Nigeria Community Leeds. All rights reserved.</p>
                     <div className="flex items-center gap-8">
                         <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
                         <Link href="#" className="hover:text-white transition-colors">Charity Info</Link>

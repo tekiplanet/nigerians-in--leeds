@@ -100,7 +100,7 @@ export const Impact = () => {
                             </h2>
                             <p className="text-xl text-white/60 mb-12 leading-relaxed">
                                 We believe in action over words. Every pound donated and every hour volunteered
-                                translates into direct support for our Nigerian community in Yorkshire.
+                                translates into direct support for the Nigeria Community Leeds in Yorkshire.
                             </p>
 
                             {/* Advanced Stat Cards */}

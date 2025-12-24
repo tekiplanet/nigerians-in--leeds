@@ -14,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Nigeria Leeds | Community Landing Page",
+  title: "Nigeria Community Leeds | Connecting & Supporting Nigerians",
   description: "A community where no Nigerian feels alone in Leeds. Connecting Nigerians across Yorkshire.",
 };
 

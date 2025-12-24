@@ -47,10 +47,10 @@ export const CTASection = () => {
                         Connect with a network that understands your journey.
                     </p>
                     <div className="flex flex-wrap justify-center gap-6">
-                        <Button variant="cta-primary" className="text-lg px-10 py-5">
+                        <Button variant="cta-primary">
                             Become a Member
                         </Button>
-                        <Button variant="cta-secondary" className="text-lg px-10 py-5">
+                        <Button variant="cta-secondary">
                             Attend an Event
                         </Button>
                     </div>

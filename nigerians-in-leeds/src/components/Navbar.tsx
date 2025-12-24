@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Container } from './Container';
+import { Button } from './Button';
 
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +36,7 @@ export const Navbar = () => {
                             <path d="M20 8L24 16H28L24 24H16L12 16H16L20 8Z" fill="#4A1D6F" />
                         </svg>
                     </div>
-                    <span className="text-xl font-bold font-serif text-brand-purple">Nigeria Leeds</span>
+                    <span className="text-2xl font-black font-serif text-brand-purple tracking-tighter">NCL</span>
                 </Link>
 
                 {/* Desktop Nav */}
@@ -57,12 +58,9 @@ export const Navbar = () => {
                         >
                             Donate
                         </Link>
-                        <Link
-                            href="#membership"
-                            className="bg-brand-purple text-white px-6 py-2 rounded-brand-button font-semibold hover:bg-brand-purple/90 transition-all shadow-brand-subtle"
-                        >
+                        <Button href="#membership" variant="primary">
                             Join Us
-                        </Link>
+                        </Button>
                     </div>
                 </div>
 
@@ -94,13 +92,14 @@ export const Navbar = () => {
                                     {link.name}
                                 </Link>
                             ))}
-                            <Link
+                            <Button
                                 href="#membership"
-                                className="bg-brand-orange text-white px-6 py-3 rounded-brand-button font-bold text-center mt-2"
+                                variant="cta-primary"
+                                className="mt-2 w-full"
                                 onClick={() => setIsOpen(false)}
                             >
                                 Join Community
-                            </Link>
+                            </Button>
                         </motion.div>
                     )}
                 </AnimatePresence>

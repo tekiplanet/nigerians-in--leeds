@@ -10,7 +10,7 @@ const stories = [
     {
         name: "Adebayo O.",
         role: "Found His Network",
-        quote: "Moving to Leeds for work was daunting, but Nigeria Leeds connected me with professionals in my field. I've made lifelong friends and valuable business contacts.",
+        quote: "Moving to Leeds for work was daunting, but Nigeria Community Leeds connected me with professionals in my field. I've made lifelong friends and valuable business contacts.",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974",
         accent: "brand-orange"
     },
